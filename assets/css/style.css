@@ -1,0 +1,80 @@
+@font-face {
+  font-family: JFRocSol;
+  src: url("../fonts/JFRocSol.TTF");
+}
+@font-face {
+  font-family: Paper-Mache;
+  src: url("../fonts/papercuts-2.ttf");
+}
+@font-face {
+  font-family: sharp;
+  src: url("../fonts/sharp.ttf");
+}
+.rockText {
+  font-family: JFRocSol;
+  color: grey;
+}
+.paperText {
+  font-family: Paper-Mache;
+  color: white;
+}
+.scissorsText {
+  font-family: sharp;
+  font-size: xx-large;
+  color: silver;
+}
+
+body {
+  background-color: blue;
+}
+div {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  display: inline-block;
+}
+th,
+td {
+  text-align: center;
+}
+table {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  position: relative;
+  border: solid gray;
+  height: 100vh;
+}
+.chooseImage {
+  width: 100px;
+  height: 100px;
+  border: solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imgDiv {
+}
+#chosenImage {
+  width: 80%;
+  height: 80%;
+  vertical-align: center;
+  border: solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#choicesRow {
+  margin: 0;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+#record {
+  text-align: center;
+}
